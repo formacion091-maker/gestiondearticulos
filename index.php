@@ -1,3 +1,9 @@
+<?php
+include 'conexion.php';
+
+$sql = "SELECT * FROM articulos ORDER BY id DESC";
+$resultado = $conn->query($sql);
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
